@@ -89,9 +89,10 @@ Process a user query by retrieving relevant chunks and generating a contextual a
 Ensure your `.env` file includes:
 
 ```env
-PORT=3000
-SUPABASE_URL=your_supabase_project_url
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+OPENAI_API_KEY=
+SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+SUPABASE_URL=
 ```
 
 ---
@@ -118,4 +119,3 @@ Request Body
   "text": "This is the full document text to be split, embedded, and stored."
 }
 
-<LeftMouse>
